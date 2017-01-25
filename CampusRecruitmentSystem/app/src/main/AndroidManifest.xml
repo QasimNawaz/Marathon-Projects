@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.qasimnawaz.campusrecruitmentsystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Company_Login" />
+        <activity android:name=".Student_Login" />
+        <activity android:name=".Company_SignUp" />
+        <activity android:name=".Student_SignUp" />
+        <activity android:name=".AdminSignUp" />
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".AdminPanel" />
+        <activity android:name=".StudentListActivity" />
+        <activity android:name=".CompanyListActivity"></activity>
+    </application>
+
+</manifest>

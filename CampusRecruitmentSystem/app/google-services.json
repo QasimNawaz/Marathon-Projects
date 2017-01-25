@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "516969967224",
+    "firebase_url": "https://myprac-d267a.firebaseio.com",
+    "project_id": "myprac-d267a",
+    "storage_bucket": "myprac-d267a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516969967224:android:676fa5c1e58b73be",
+        "android_client_info": {
+          "package_name": "com.example.qasimnawaz.campusrecruitmentsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516969967224-gb9ql286mghti7fnhqkjffl1ricpk6is.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.qasimnawaz.campusrecruitmentsystem",
+            "certificate_hash": "70FA0B6D7DBA8DD9CF0965D20A799AF3655FCB21"
+          }
+        },
+        {
+          "client_id": "516969967224-jm0mddclqi6171f0njrrr9ej7v6kr8dp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVAbk8Awb1AVD54bv6WUkPWkmsiYXv6I0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516969967224-jm0mddclqi6171f0njrrr9ej7v6kr8dp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
