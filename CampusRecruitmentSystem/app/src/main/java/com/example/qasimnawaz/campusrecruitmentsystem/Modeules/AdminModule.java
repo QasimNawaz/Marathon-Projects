@@ -23,11 +23,6 @@ public class AdminModule {
         this.email = email;
     }
 
-    public AdminModule(String name, String position) {
-        this.name = name;
-        this.position = position;
-    }
-
     public String getName() {
         return name;
     }

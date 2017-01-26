@@ -62,8 +62,6 @@ public class AdminSignUp extends AppCompatActivity {
                             if (task.isSuccessful()){
                                 Toast.makeText(AdminSignUp.this, "Successfull", Toast.LENGTH_SHORT).show();
                                 module = new AdminModule(adminName, adminPosition, adminEmail);
-//                                String uid = mAuth.getCurrentUser().getUid().toString();
-//                                myRef.child("AdminDashboard").child("AdminPanel").child(uid).setValue(module);
                                 String uid = mAuth.getCurrentUser().getUid().toString();
                                 myRef.child("AdminDashboard").child("AdminPanel").child(uid).setValue(module);
                                 Intent intent = new Intent(AdminSignUp.this, AdminPanel.class);

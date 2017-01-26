@@ -22,8 +22,8 @@
         <activity android:name=".AdminSignUp" />
         <activity android:name=".AdminLogin" />
         <activity android:name=".AdminPanel" />
-        <activity android:name=".StudentListActivity" />
-        <activity android:name=".CompanyListActivity"></activity>
+        <activity android:name=".Activities.StudentListActivity" />
+        <activity android:name=".Activities.CompanyListActivity"></activity>
     </application>
 
 </manifest>
