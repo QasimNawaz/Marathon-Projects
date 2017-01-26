@@ -4,7 +4,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ede9ff"
+    android:background="@drawable/back"
     android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -46,6 +46,11 @@
         android:textSize="22dp"
         android:textStyle="italic" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_above="@+id/horizonal_buttons"
+        android:src="@drawable/find_patient" />
 
     <LinearLayout
         android:id="@+id/horizonal_buttons"
@@ -61,7 +66,8 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
-            android:background="#5c5c5c"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
             android:text="Company"
             android:textAlignment="center"
             android:textColor="#ffffff"
@@ -73,7 +79,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:layout_weight="1"
-            android:background="#5c5c5c"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
             android:text="Student"
             android:textAlignment="center"
             android:textColor="#ffffff"
@@ -88,9 +95,10 @@
         android:layout_alignParentBottom="true"
         android:layout_gravity="bottom"
         android:layout_marginTop="5dp"
-        android:background="#5c5c5c"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
         android:text="Admin"
         android:textAlignment="center"
-        android:textColor="#ffffff"
+        android:textColor="#FFFFFFFF"
         android:textSize="20sp" />
 </RelativeLayout>

@@ -47,6 +47,7 @@ public class Company_Login extends AppCompatActivity {
         getEmail = (TextView) findViewById(R.id.cmp_email_textView);
         getPassword = (TextView) findViewById(R.id.cmp_password_textView);
 
+
         signUpButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -59,6 +60,11 @@ public class Company_Login extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (getEmail.getText().toString().length()<2){
+                    getEmail.setError("Email must required");
+                }else if (getPassword == null){
+                    getPassword.setError("Password must required");
+                }
                 final String mail = getEmail.getText().toString();
                 final String pass = getPassword.getText().toString();
 //                uid = mAuth.getCurrentUser().getUid();
@@ -120,7 +126,6 @@ public class Company_Login extends AppCompatActivity {
 
 
                 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
                 mAuth.signInWithEmailAndPassword(mail, pass).addOnCompleteListener(Company_Login.this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
